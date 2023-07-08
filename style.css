@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* maltiple used css styles */
+.btn-maltiple
+{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+span
+{
+    color: #FD6E0A;
+}
+
+/* header area */
+.head
+{
+    background-color: #FFF8F3;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+}
+
+nav
+{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li
+{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+.nav-tittle
+{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 800;
+}
